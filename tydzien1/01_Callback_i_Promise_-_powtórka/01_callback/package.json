@@ -1,0 +1,13 @@
+{
+  "name": "01-callback",
+  "version": "1.0.0",
+  "description": "Callback",
+  "scripts": {
+    "callback": "nodemon callback.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

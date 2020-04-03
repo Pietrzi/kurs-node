@@ -1,0 +1,13 @@
+{
+  "name": "02-promise",
+  "version": "1.0.0",
+  "description": "Promise",
+  "scripts": {
+    "callback": "nodemon promise.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

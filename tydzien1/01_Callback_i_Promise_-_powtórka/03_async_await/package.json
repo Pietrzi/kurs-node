@@ -1,0 +1,13 @@
+{
+  "name": "03-async-await",
+  "version": "1.0.0",
+  "description": "Async/Await",
+  "scripts": {
+    "callback": "nodemon async_await.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

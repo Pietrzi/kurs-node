@@ -1,0 +1,14 @@
+{
+  "name": "03_promise-cancel",
+  "version": "1.0.0",
+  "description": "Promise cancel",
+  "scripts": {
+    "promise": "nodemon promise_cancel.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

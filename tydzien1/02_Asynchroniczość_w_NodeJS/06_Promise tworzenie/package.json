@@ -1,0 +1,14 @@
+{
+  "name": "06_promise-create",
+  "version": "1.0.0",
+  "description": "Promise tworzenie własnego Promisa",
+  "scripts": {
+    "promise": "nodemon promise_create.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

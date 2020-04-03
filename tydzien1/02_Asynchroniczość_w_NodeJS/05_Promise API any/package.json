@@ -1,0 +1,14 @@
+{
+  "name": "05_promise-any",
+  "version": "1.0.0",
+  "description": "Promise any",
+  "scripts": {
+    "promise": "nodemon promise_any.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

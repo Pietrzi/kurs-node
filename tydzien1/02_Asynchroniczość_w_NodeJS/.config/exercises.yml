@@ -1,0 +1,21 @@
+---
+exercises:
+  "01_Podstawy asynchroniczno\u015Bci w Node.js":
+    max_points: 0
+    disabled: true
+  02_Promise API:
+    max_points: 0
+    disabled: true
+  03_Promise API cancel:
+    max_points: 0
+    disabled: true
+  04_Promise API none:
+    max_points: 0
+    disabled: true
+  05_Promise API any:
+    max_points: 0
+    disabled: true
+  06_Promise tworzenie:
+    max_points: 0
+    disabled: true
+...

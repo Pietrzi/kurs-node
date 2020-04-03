@@ -1,0 +1,14 @@
+{
+  "name": "01_podstawy-asynchronicznosci-node",
+  "version": "1.0.0",
+  "description": "Podstawy asynchroniczności w Node.js",
+  "scripts": {
+    "promise": "nodemon promise_basics.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

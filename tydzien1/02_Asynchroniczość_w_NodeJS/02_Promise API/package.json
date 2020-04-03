@@ -1,0 +1,14 @@
+{
+  "name": "02_promise-api-podstawy",
+  "version": "1.0.0",
+  "description": "Promise API podstawy",
+  "scripts": {
+    "promise": "nodemon promise_api.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

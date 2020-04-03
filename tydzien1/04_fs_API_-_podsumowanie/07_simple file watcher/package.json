@@ -1,0 +1,14 @@
+{
+  "name": "06_file_watcher",
+  "version": "1.0.0",
+  "description": "Prosty fileWatcher",
+  "scripts": {
+    "watch": "nodemon watch.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

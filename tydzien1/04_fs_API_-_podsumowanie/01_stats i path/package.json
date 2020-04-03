@@ -1,0 +1,14 @@
+{
+  "name": "01_stats_i_path",
+  "version": "1.0.0",
+  "description": "Obiekt stats i moduł path",
+  "scripts": {
+    "stats": "nodemon stats_and_path.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

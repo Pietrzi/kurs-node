@@ -1,0 +1,24 @@
+---
+exercises:
+  01_stats i path:
+    max_points: 0
+    disabled: true
+  02_move:
+    max_points: 0
+    disabled: true
+  03_copy:
+    max_points: 0
+    disabled: true
+  04_swap:
+    max_points: 0
+    disabled: true
+  05_iteracja:
+    max_points: 0
+    disabled: true
+  06_all:
+    max_points: 0
+    disabled: true
+  07_simple file watcher:
+    max_points: 0
+    disabled: true
+...

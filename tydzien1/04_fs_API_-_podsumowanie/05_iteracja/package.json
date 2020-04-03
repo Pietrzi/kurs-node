@@ -1,0 +1,14 @@
+{
+  "name": "05_fs-iterate",
+  "version": "1.0.0",
+  "description": "Rekursywne przeszukiwanie katalogów",
+  "scripts": {
+    "iterate": "nodemon iterate.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

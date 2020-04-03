@@ -1,0 +1,14 @@
+{
+  "name": "03_swap",
+  "version": "1.0.0",
+  "description": "Tworzenie funkcji copyFile",
+  "scripts": {
+    "copy": "nodemon copy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

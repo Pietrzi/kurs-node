@@ -1,0 +1,14 @@
+{
+  "name": "06_path_and_fs",
+  "version": "1.0.0",
+  "description": "Podsumowanie modułów path i fs",
+  "scripts": {
+    "all": "nodemon all.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

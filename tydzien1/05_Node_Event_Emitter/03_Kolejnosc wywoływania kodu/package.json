@@ -1,0 +1,15 @@
+{
+  "name": "01_order_of_execution",
+  "version": "1.0.0",
+  "description": "Kolejność wykonywania kodu",
+  "main": "order.js",
+  "type": "module",
+  "scripts": {
+    "order": "nodemon order.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

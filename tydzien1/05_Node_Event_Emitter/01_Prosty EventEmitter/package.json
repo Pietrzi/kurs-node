@@ -1,0 +1,15 @@
+{
+  "name": "01_simple_emitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "emitter.js",
+  "type": "module",
+  "scripts": {
+    "emitter": "nodemon emitter.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

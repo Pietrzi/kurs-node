@@ -1,0 +1,21 @@
+---
+exercises:
+  01_Prosty EventEmitter:
+    max_points: 0
+    disabled: true
+  02_once vs. on:
+    max_points: 0
+    disabled: true
+  "03_Kolejnosc wywo\u0142ywania kodu":
+    max_points: 0
+    disabled: true
+  04_eventNames:
+    max_points: 0
+    disabled: true
+  05_Rozszerzanie klasy EventEmitter:
+    max_points: 0
+    disabled: true
+  "06_Obs\u0142uga b\u0142\u0119d\xF3w":
+    max_points: 0
+    disabled: true
+...

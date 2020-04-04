@@ -1,0 +1,15 @@
+{
+  "name": "04_event_names",
+  "version": "1.0.0",
+  "description": "Aktywne zdarzenia",
+  "main": "emitter.js",
+  "type": "module",
+  "scripts": {
+    "names": "nodemon names.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

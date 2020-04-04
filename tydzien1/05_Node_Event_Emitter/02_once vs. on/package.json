@@ -1,0 +1,15 @@
+{
+  "name": "02_once_on",
+  "version": "1.0.0",
+  "description": "Tworzenie nowych obserwatorów",
+  "main": "once.js",
+  "type": "module",
+  "scripts": {
+    "once": "nodemon once.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

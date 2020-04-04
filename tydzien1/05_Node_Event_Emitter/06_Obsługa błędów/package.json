@@ -1,0 +1,15 @@
+{
+  "name": "06_event_based_error_handling",
+  "version": "1.0.0",
+  "description": "Obsługa błędów przy użyciu event emitera",
+  "main": "error.js",
+  "type": "module",
+  "scripts": {
+    "error": "nodemon error.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

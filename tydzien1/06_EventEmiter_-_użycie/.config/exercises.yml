@@ -1,0 +1,24 @@
+---
+exercises:
+  01_Event based Timer:
+    max_points: 0
+    disabled: true
+  02_Quiz:
+    max_points: 0
+    disabled: true
+  03_Helpful bot:
+    max_points: 0
+    disabled: true
+  04_fs API revisited:
+    max_points: 0
+    disabled: true
+  05_fizbaz:
+    max_points: 0
+    disabled: true
+  06_Promise vs. EventEmitter:
+    max_points: 0
+    disabled: true
+  07_Kolorowe console.logi:
+    max_points: 0
+    disabled: true
+...

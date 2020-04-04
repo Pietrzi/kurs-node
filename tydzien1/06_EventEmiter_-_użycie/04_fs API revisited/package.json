@@ -1,0 +1,15 @@
+{
+  "name": "04_fs_api_with_events",
+  "version": "1.0.0",
+  "description": "Czytanie i zapis do pliku z wykorzystaniem zdarzeń",
+  "main": "read_write.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "read": "nodemon read_write.js"
+  },
+  "type": "module"
+}

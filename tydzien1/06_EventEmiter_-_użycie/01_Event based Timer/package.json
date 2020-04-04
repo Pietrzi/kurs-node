@@ -1,0 +1,15 @@
+{
+  "name": "01_event_based_timer",
+  "version": "1.0.0",
+  "description": "Timer oparty o klasę EventEmitter",
+  "main": "timer.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "timer": "nodemon timer.js"
+  },
+  "type": "module"
+}

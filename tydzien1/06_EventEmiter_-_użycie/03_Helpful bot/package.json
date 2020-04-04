@@ -1,0 +1,12 @@
+{
+  "name": "03_bot",
+  "version": "1.0.0",
+  "description": "Prosty Bot",
+  "main": "bot.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^7.1.0"
+  },
+  "type": "module"
+}

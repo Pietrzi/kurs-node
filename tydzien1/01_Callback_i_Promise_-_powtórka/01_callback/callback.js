@@ -7,7 +7,22 @@ function asynchronousResponse(value, callback) {
   setTimeout(() => callback(value), delay);
 }
 
+let numbers = [];
+
 function getAsyncNumber(number) {
+
+  asynchronousResponse(number, function() {
+    numbers[number] = {num: number, isDone: false};
+
+    for (let i = 0; i < numbers.length; i++) {
+      if (numbers[i] === undefined) {
+        return;
+      }
+      if (!numbers[i].isDone) {
+        console.log(numbers[i].num)
+      }
+    }
+  });
   /* 
     Add implementation of getAsyncNumber function in a way that numbers
     appear on a console in order in which they have been called.

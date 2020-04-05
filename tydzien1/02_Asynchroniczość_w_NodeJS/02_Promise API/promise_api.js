@@ -48,3 +48,30 @@ Promise.allSettled([
   console.warn(error)
 })
 
+Promise.all([
+  Promise.resolve(1),
+  Promise.resolve(2),
+  Promise.resolve(3),
+])
+.then((results) => {
+  console.log(results[0])
+  console.log(results[1])
+  console.log(results[2])
+})
+.catch(error => {
+  console.warn(error)
+})
+
+Promise.all([
+  Promise.reject(1),
+  Promise.reject(2),
+  Promise.reject(3),
+])
+.then((results) => {
+  console.log(results[0])
+  console.log(results[1])
+  console.log(results[2])
+})
+.catch(error => {
+  console.warn(error)
+})

@@ -2,8 +2,10 @@ const getRandomDelay = (maxDelay) => {
   return (Math.floor(Math.random() * maxDelay)) * 1000;
 };
 
+var successDelay = null;
+
 const getAsyncNumbers = () => {
-  var successDelay = getRandomDelay(10);
+  successDelay = getRandomDelay(10);
 
   return new Promise((resolve) => {
     setTimeout(
@@ -12,3 +14,17 @@ const getAsyncNumbers = () => {
     );
   });
 };
+
+const rejectPromise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    reject(new Error("Timeout"))
+  }, 3000)
+})
+
+Promise.race([getAsyncNumbers(), rejectPromise])
+  .then((val) => {
+    console.log(val, successDelay);
+  })
+  .catch((error) => {
+    console.warn(error, successDelay)
+  })

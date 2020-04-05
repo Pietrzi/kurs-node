@@ -18,3 +18,33 @@ const getAsyncNumbers = () => {
     );
   });
 };
+
+Promise.all([
+  getAsyncNumbers(),
+  getAsyncNumbers(),
+  getAsyncNumbers(),
+])
+.then((results) => {
+  console.log(results[0])
+  console.log(results[1])
+  console.log(results[2])
+  console.warn(results)
+})
+.catch(error => {
+  console.warn(error)
+})
+
+Promise.allSettled([
+  getAsyncNumbers(),
+  getAsyncNumbers(),
+  getAsyncNumbers(),
+])
+.then((results) => {
+  console.log(results[0].status)
+  console.log(results[1].status)
+  console.log(results[2].status)
+})
+.catch(error => {
+  console.warn(error)
+})
+

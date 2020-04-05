@@ -71,7 +71,7 @@ W pliku `promise_cancel.js` uruchamianym skryptem `npm run promise` znajduje si�
 ## Przerywanie Promisa
 Spróbuj przy pomocy Promise.race zaprojektować Promise, który albo wykona się poprawnie i zwróci dane z funkcji `getAsyncNumbers`, albo wyrzuci błąd, jeśli odpowiedź (tj. tablica liczb z funkcji `getAsyncNumbers`) nie pojawi się w czasie poniżej 3 sekund.
 
-# Promise API
+# Promise AP1
 
 Metoda Promise.all kończy się sukcesem kiedy wszystkie przekazane w tablicy Promisy zakończą sie sukcesem i kończy się błędem, kiedy co najmniej jeden z Promisów z tablicy kończy się błędem. Spróbujemy teraz stworzyć funkcję `promiseNone`, która zadziała odwrotnie tj. zakończy się sukcesem kiedy wszystkie przekazane w tablicy Promisy zakończą się błędem i zwróci błąd kiedy co najmniej jeden z Promisów z tablicy zakończy się sukcesem. 
 

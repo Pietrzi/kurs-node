@@ -1,0 +1,12 @@
+---
+exercises:
+  01_Zapis stdin do pliku:
+    max_points: 0
+    disabled: true
+  02_chat-room:
+    max_points: 0
+    disabled: true
+  03_visual fireworks:
+    max_points: 0
+    disabled: true
+...

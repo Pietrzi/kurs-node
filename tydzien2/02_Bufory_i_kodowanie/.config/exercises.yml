@@ -1,0 +1,12 @@
+---
+exercises:
+  01_Adres IP:
+    max_points: 0
+    disabled: true
+  02_Binary to text:
+    max_points: 0
+    disabled: true
+  03_Gold mining:
+    max_points: 0
+    disabled: true
+...

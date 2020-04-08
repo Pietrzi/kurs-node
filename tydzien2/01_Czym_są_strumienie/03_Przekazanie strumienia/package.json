@@ -1,0 +1,13 @@
+{
+  "name": "zadanie_2",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start:inputToOutput": "nodemon inputToOutput"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

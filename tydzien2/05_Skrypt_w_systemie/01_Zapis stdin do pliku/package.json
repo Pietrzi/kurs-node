@@ -2,6 +2,9 @@
   "name": "bootstrap",
   "version": "1.0.0",
   "description": "",
+  "bin": {
+    "cli": "./cli.js"
+  },
   "main": "index.js",
   "author": "",
   "license": "ISC"

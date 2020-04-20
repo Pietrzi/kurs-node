@@ -1,0 +1,16 @@
+{
+  "name": "04_hmac",
+  "version": "1.0.0",
+  "description": "Ochrona integralności danych",
+  "main": "hmac.js",
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "check": "nodemon check.js",
+    "hmac": "nodemon hmac.js"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

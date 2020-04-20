@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "chat-room": "./chat-room.js"
+  },
   "author": "",
   "license": "ISC"
 }

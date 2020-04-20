@@ -1,0 +1,15 @@
+---
+exercises:
+  01_Algorytmy hashowania danych:
+    max_points: 0
+    disabled: true
+  "02_Ochrona hase\u0142":
+    max_points: 0
+    disabled: true
+  "03_Ochrona danych wra\u017Cliwych":
+    max_points: 0
+    disabled: true
+  "04_Ochrona integralno\u015Bci plik\xF3w":
+    max_points: 0
+    disabled: true
+...

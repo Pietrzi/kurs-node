@@ -1,0 +1,15 @@
+{
+  "name": "01_simple_hash",
+  "version": "1.0.0",
+  "description": "Proste metody hashowania danych",
+  "main": "hash.js",
+  "type": "module",
+  "scripts": {
+    "hash": "nodemon hash.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

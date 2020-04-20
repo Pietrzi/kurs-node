@@ -1,0 +1,15 @@
+---
+exercises:
+  01_Pierwsza aplikacja serwerowa w ExpressJS:
+    max_points: 0
+    disabled: true
+  02_Podstawowy routing + POSTMAN:
+    max_points: 0
+    disabled: true
+  "03_Debugowanie z modu\u0142em debug":
+    max_points: 0
+    disabled: true
+  "04_Serwowanie statycznych plik\xF3w":
+    max_points: 0
+    disabled: true
+...

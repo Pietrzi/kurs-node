@@ -1,0 +1,9 @@
+---
+exercises:
+  01_http_to_express:
+    max_points: 0
+    disabled: true
+  "02_Routing i middleware wst\u0119p":
+    max_points: 0
+    disabled: true
+...

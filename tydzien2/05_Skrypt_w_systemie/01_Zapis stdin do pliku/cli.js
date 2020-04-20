@@ -4,6 +4,8 @@ process.stdin.setEncoding('utf-8');
 const arg = process.argv[2];
 const input = process.stdin;
 
+///// npm link trzeba !!!!!!!!!!!!!!!!!!!!!!!!
+
 input.on("data", function(data){
 
     let d = data.toString('utf-8').trim();

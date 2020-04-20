@@ -1,0 +1,21 @@
+---
+exercises:
+  01_Przygotowanie:
+    max_points: 0
+    disabled: true
+  02_Etag:
+    max_points: 0
+    disabled: true
+  03_Rate limit:
+    max_points: 0
+    disabled: true
+  "04_Powt\xF3rzony tekst":
+    max_points: 0
+    disabled: true
+  "05_Ilo\u015B\u0107 s\u0142\xF3w w tek\u015Bcie":
+    max_points: 0
+    disabled: true
+  06_REST:
+    max_points: 0
+    disabled: true
+...

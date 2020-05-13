@@ -1,0 +1,15 @@
+---
+exercises:
+  "01_MVVM - przyk\u0142ad":
+    max_points: 0
+    disabled: true
+  02_Mikroserwisy:
+    max_points: 0
+    disabled: true
+  03_Sesja w NodeJS:
+    max_points: 0
+    disabled: true
+  04_Uwierzytelnianie w NodeJS:
+    max_points: 0
+    disabled: true
+...

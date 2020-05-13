@@ -1,0 +1,8 @@
+<h1><%= greeting %></h1>
+<ul>
+    <% list.forEach(function(val, index){ %>
+        <% if(index !== 1) { %>
+            <li key="<%= index %>"><%= val %></li>
+        <% } %>
+    <% }); %>
+</ul>

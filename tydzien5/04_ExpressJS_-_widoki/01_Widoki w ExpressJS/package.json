@@ -1,0 +1,25 @@
+{
+  "name": "01_widoki-w-expressjs",
+  "version": "1.0.0",
+  "description": "Widoki w ExpressJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node --no-warnings task.js"
+  },
+  "type": "module",
+  "keywords": [
+    "nodejs",
+    "coderslab",
+    "views",
+    "engine"
+  ],
+  "author": "Coderslab",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "expressjs": "^1.0.1",
+    "nodemon": "^2.0.3"
+  }
+}

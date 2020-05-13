@@ -1,0 +1,31 @@
+{
+  "name": "02_mikroserwisy",
+  "version": "1.0.0",
+  "description": "Mikroserwisy",
+  "main": "index.js",
+  "scripts": {
+    "start-infrastructure": "concurrently \"npm run start-processor\" \"npm run start-ingress\"",
+    "start-services": "concurrently \"npm run start-logger\" \"npm run start-user\"",
+    "start-ingress": "cd ingress && nodemon --experimental-modules --es-module-specifier-resolution=node --no-warnings app.js",
+    "start-processor": "nodemon --experimental-modules --es-module-specifier-resolution=node --no-warnings events-processor/app.js",
+    "start-logger": "nodemon --experimental-modules --es-module-specifier-resolution=node --no-warnings logger/app.js",
+    "start-user": "nodemon --experimental-modules --es-module-specifier-resolution=node --no-warnings user/app.js"
+  },
+  "type": "module",
+  "keywords": [
+    "nodejs",
+    "coderslab",
+    "views",
+    "engine"
+  ],
+  "author": "Coderslab",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}

@@ -1,0 +1,21 @@
+---
+exercises:
+  01_Widoki w ExpressJS:
+    max_points: 0
+    disabled: true
+  "02_Silniki - por\xF3wnanie":
+    max_points: 0
+    disabled: true
+  03_Handlebars:
+    max_points: 0
+    disabled: true
+  "04_Handlebars - w\u0142asne helpery":
+    max_points: 0
+    disabled: true
+  05_Katalog publiczny:
+    max_points: 0
+    disabled: true
+  "06_SSR - minimalistyczny przyk\u0142ad":
+    max_points: 0
+    disabled: true
+...

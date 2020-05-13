@@ -1,0 +1,26 @@
+{
+  "name": "03_handlebars",
+  "version": "1.0.0",
+  "description": "Handlebars - wprowadzenie",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node --no-warnings task.js"
+  },
+  "type": "module",
+  "keywords": [
+    "nodejs",
+    "coderslab",
+    "views",
+    "engine"
+  ],
+  "author": "Coderslab",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "expressjs": "^1.0.1",
+    "nodemon": "^2.0.3"
+  }
+}

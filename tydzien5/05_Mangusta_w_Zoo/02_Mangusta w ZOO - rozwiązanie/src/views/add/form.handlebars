@@ -1,0 +1,78 @@
+<h1>Add animal</h1>
+<form id="add-animal" action="/animals/add" method="post">
+  <table cellspacing="10">
+    <tr>
+      <td>
+        <label for="species">Species:</label>
+      </td>
+      <td>
+        <input required  id="species" type="text" name="species">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="name">Name:</label>
+      </td>
+      <td>
+        <input required  id="name" type="text" name="name">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="birth-date">Birth date:</label>
+      </td>
+      <td>
+        <input required  id="birth-date" type="date" name="birthDate">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="where">Where is kept:</label>
+      </td>
+      <td>
+        <input required  id="where" type="text" name="where">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="health-status">Health status:</label>
+      </td>
+      <td>
+        <select required id="health-status" name="healthStatus">
+          <option value="EXCELLENT">Excellent</option>
+          <option value="GOOD">Good</option>
+          <option value="MINOR">Minor</option>
+          <option value="MAJOR_ISSUES">Major issues</option>
+          <option value="SEVERE_ISSUES">Severe issues</option>
+          <option value="DEGRADING">Degrading</option>
+          <option value="RECOVERING">Recovering</option>
+          <option value="TREATED">Treated</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="origin">Origin:</label>
+      </td>
+      <td>
+        <input required  id="origin" name="origin">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="comments">Comments:</label>
+      </td>
+      <td>
+        <textarea id="comments" name="comments"></textarea>
+      </td>
+    </tr>
+  </table>
+
+  <p>
+    <button type="submit">Save animal</button>
+  </p>
+
+  <p>
+    <a href="/animals">Back to list</a>
+  </p>
+</form>

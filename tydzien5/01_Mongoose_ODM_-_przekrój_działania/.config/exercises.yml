@@ -1,0 +1,24 @@
+---
+exercises:
+  01_Schematy:
+    max_points: 0
+    disabled: true
+  "02_Wymagalno\u015B\u0107 p\xF3l":
+    max_points: 0
+    disabled: true
+  "03_Warto\u015Bci domy\u015Blne":
+    max_points: 0
+    disabled: true
+  04_Walidacja i funkcje:
+    max_points: 0
+    disabled: true
+  05_Gettery i settery:
+    max_points: 0
+    disabled: true
+  06_Modele - zapytania:
+    max_points: 0
+    disabled: true
+  07_Dokumenty - instancje modelu:
+    max_points: 0
+    disabled: true
+...

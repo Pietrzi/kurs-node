@@ -1,0 +1,24 @@
+---
+exercises:
+  "01_Operatory por\xF3wnania":
+    max_points: 0
+    disabled: true
+  "02_Operatory por\xF3wnania - dodatkowe":
+    max_points: 0
+    disabled: true
+  03_Operatory logiczne:
+    max_points: 0
+    disabled: true
+  04_Operatory logiczne - dodatkowe:
+    max_points: 0
+    disabled: true
+  "05_Operatory element\xF3w":
+    max_points: 0
+    disabled: true
+  "06_Operator wyra\u017Ce\u0144 JS":
+    max_points: 0
+    disabled: true
+  07_Operatory tablicowe:
+    max_points: 0
+    disabled: true
+...

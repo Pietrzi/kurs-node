@@ -1,0 +1,15 @@
+{
+  "name": "01_instalacja-adaptera",
+  "version": "1.0.0",
+  "description": "Instalacja adaptera NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "connect": "nodemon --experimental-modules connect.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.7",
+    "nodemon": "^2.0.2"
+  }
+}

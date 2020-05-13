@@ -1,0 +1,21 @@
+---
+exercises:
+  01_MongoDB - adapter:
+    max_points: 0
+    disabled: true
+  02_Odczyt jednego dokumentu:
+    max_points: 0
+    disabled: true
+  03_Kursory - iteracja:
+    max_points: 0
+    disabled: true
+  "04_Sortowanie wynik\xF3w":
+    max_points: 0
+    disabled: true
+  05_Stronicowanie:
+    max_points: 0
+    disabled: true
+  "06_Dodawanie wielu dokument\xF3w":
+    max_points: 0
+    disabled: true
+...

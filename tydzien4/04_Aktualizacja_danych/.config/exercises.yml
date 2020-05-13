@@ -1,0 +1,24 @@
+---
+exercises:
+  01_Operatory arytmetyczne:
+    max_points: 0
+    disabled: true
+  "02_Operatory por\xF3wnania":
+    max_points: 0
+    disabled: true
+  "03_Zmiana warto\u015Bci pola":
+    max_points: 0
+    disabled: true
+  "04_Zmiana nazwy p\xF3l":
+    max_points: 0
+    disabled: true
+  05_Usuwanie pola:
+    max_points: 0
+    disabled: true
+  06_Tablice - podstawy:
+    max_points: 0
+    disabled: true
+  "07_Tablice - operatory zast\u0119pcze":
+    max_points: 0
+    disabled: true
+...

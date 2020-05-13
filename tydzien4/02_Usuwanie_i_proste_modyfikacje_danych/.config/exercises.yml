@@ -1,0 +1,18 @@
+---
+exercises:
+  01_Modyfikacja danych - pojedynczy dokument:
+    max_points: 0
+    disabled: true
+  "02_Modyfikacja danych - wiele dokument\xF3w":
+    max_points: 0
+    disabled: true
+  "03_Usuwanie danych - usuni\u0119cie dokumentu":
+    max_points: 0
+    disabled: true
+  04_Usuwanie danych - flaga:
+    max_points: 0
+    disabled: true
+  05_Usuwanie danych - przenoszenie:
+    max_points: 0
+    disabled: true
+...

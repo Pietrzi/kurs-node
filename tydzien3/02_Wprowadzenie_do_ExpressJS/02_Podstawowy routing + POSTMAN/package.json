@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Podstawy routingu w Express.js i użycie POSTMANA",
   "main": "app.js",
-  "type": "module",
   "author": "",
   "license": "ISC",
   "dependencies": {

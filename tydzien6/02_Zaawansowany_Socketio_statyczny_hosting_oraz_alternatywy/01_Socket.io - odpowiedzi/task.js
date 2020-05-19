@@ -28,6 +28,19 @@ try {
   app.use(express.static('public'));
 
   // Implement your code BELOW
+  app.get("/", (req, res) => {
+    res.render("responseTester");
+  });
+
+  server.on("connection", (socket => {
+    socket.on("messageName", (value) => {
+      if (value % 2 ===0) {
+        socket.emit("foobar", "foo")
+      } else {
+        socket.emit("foobar", "bar")
+      }
+    })
+  }))
 
   http.listen(port, async() => {
     console.log(`Socket.io server listening at http://localhost:${port}`);

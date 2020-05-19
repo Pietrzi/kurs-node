@@ -1,0 +1,18 @@
+---
+exercises:
+  01_Socket.io - odpowiedzi:
+    max_points: 0
+    disabled: true
+  02_Socket.io - pokoje i broadcast:
+    max_points: 0
+    disabled: true
+  03_Statyczny hosting z ExpressJS:
+    max_points: 0
+    disabled: true
+  04_Statyczny hosting - CORS:
+    max_points: 0
+    disabled: true
+  05_Statyczny hosting - caching proxy:
+    max_points: 0
+    disabled: true
+...

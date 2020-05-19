@@ -1,0 +1,25 @@
+{
+  "name": "04_interfejsy",
+  "version": "1.0.0",
+  "description": "Interfejsy",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/app.ts"
+  },
+  "type": "module",
+  "keywords": [
+    "nodejs",
+    "coderslab",
+    "typescript"
+  ],
+  "author": "Coderslab",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.1",
+    "tsc": "^1.20150623.0"
+  },
+  "dependencies": {
+    "typescript": "^3.9.2"
+  }
+}

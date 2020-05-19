@@ -1,0 +1,22 @@
+{
+  "name": "02_typescript-konfiguracja",
+  "version": "1.0.0",
+  "description": "Typescript - konfiguracja",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node --no-warnings src/app.js"
+  },
+  "type": "module",
+  "keywords": [
+    "nodejs",
+    "coderslab",
+    "typescript"
+  ],
+  "author": "Coderslab",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+  }
+}

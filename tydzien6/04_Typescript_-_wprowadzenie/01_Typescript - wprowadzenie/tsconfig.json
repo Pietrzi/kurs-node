@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "outFile": "out/bundle.js"
+  },
+  "include": ["./*.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}

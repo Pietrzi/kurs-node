@@ -1,0 +1,12 @@
+---
+exercises:
+  01_Polling:
+    max_points: 0
+    disabled: true
+  02_Long polling:
+    max_points: 0
+    disabled: true
+  03_Socket.io:
+    max_points: 0
+    disabled: true
+...

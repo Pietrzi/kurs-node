@@ -1,0 +1,24 @@
+{
+  "name": "01_typescript-wprowadzenie",
+  "version": "1.0.0",
+  "description": "Typescript - wprowadzenie",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node --no-warnings task.js",
+    "typescript": "nodemon --exec \"ts-node\" task.ts"
+  },
+  "type": "module",
+  "keywords": [
+    "nodejs",
+    "coderslab",
+    "typescript"
+  ],
+  "author": "Coderslab",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.2"
+  },
+  "devDependencies": {}
+}

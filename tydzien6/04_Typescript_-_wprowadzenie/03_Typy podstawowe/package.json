@@ -1,0 +1,26 @@
+{
+  "name": "03_typy-podstawowe",
+  "version": "1.0.0",
+  "description": "Typy podstawowe",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node --no-warnings src/app.js",
+    "ts": "nodemon --exec ts-node src/app.ts"
+  },
+  "type": "module",
+  "keywords": [
+    "nodejs",
+    "coderslab",
+    "typescript"
+  ],
+  "author": "Coderslab",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.1",
+    "tsc": "^1.20150623.0"
+  },
+  "dependencies": {
+    "typescript": "^3.9.2"
+  }
+}

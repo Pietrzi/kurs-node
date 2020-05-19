@@ -1,0 +1,17 @@
+<form id="checkboxes">
+  <table>
+    <tr>
+    {{#each this}}
+      <td style="padding: 10px;">
+        {{#if checked}}
+          <input id="{{ id }}" type="checkbox" checked onclick="updateAvailableStats(this)">
+        {{else}}
+          <input id="{{ id }}" type="checkbox" onclick="updateAvailableStats(this)">
+        {{/if}}
+
+        <label for="{{ id }}">{{ title }}</label>
+      </td>
+    {{/each}}
+    </tr>
+  </table>
+</form>

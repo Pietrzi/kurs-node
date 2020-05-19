@@ -1,0 +1,29 @@
+{
+  "name": "05_statyczny_hosting_cache",
+  "version": "1.0.0",
+  "description": "Statyczny hosting - caching proxy",
+  "main": "index.js",
+  "scripts": {
+    "client": "webpack --config=webpack.config.js --watch",
+    "proxy": "nodemon --experimental-modules --es-module-specifier-resolution=node --no-warnings proxy.js",
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node --no-warnings task.js"
+  },
+  "type": "module",
+  "keywords": [
+    "nodejs",
+    "coderslab",
+    "views",
+    "engine"
+  ],
+  "author": "Coderslab",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}

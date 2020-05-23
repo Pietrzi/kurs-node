@@ -6,7 +6,26 @@ import { runAssertionsMongoose } from './internals/assertions';
   try {
     let schema;
 
-    // Prepare Mongoose schema below
+    // Prepare Mongoose schema below /////////////////////////
+    const userSchema = new mongoose.Schema({
+      firstName: {
+        type: String, required: true
+      },
+      lastName: {
+        type: String, required: true
+      },
+      loginCount: {
+        type: Number, required: true
+      },
+      registerDate: {
+        type: Date, required: true
+      },
+      commentsAmount: {
+        type: Number, required: true
+      },
+    });
+
+    //////////////////////////////////////////////
 
     await runAssertionsMongoose(schema);
   } catch (err) {

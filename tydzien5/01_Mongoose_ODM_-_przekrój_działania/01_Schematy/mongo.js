@@ -6,7 +6,16 @@ import { runAssertionsMongo } from './internals/assertions';
   try {
     let schema;
 
-    // Prepare Joi schema below
+    // Prepare Joi schema below/////////////////////////////////////////////////////
+    const UsersSchema = new Joi.object().keys({
+      firstName: Joi.string(),
+      lastName: Joi.string(),
+      loginCount: Joi.number(),
+      registerDate: Joi.date(),
+      commentsAmount: Joi.number()
+    }).options({ presence: 'required' });
+
+    ////////////////////////////////////////////////////////////
 
     await runAssertionsMongo(schema);
   } catch (err) {

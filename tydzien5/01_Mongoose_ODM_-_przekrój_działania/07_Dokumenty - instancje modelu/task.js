@@ -9,7 +9,7 @@ import { runAssertions } from './internals/assertions';
 
     let tomato;
 
-    // Add all of your code below
+    // Add all of your code below /////////////////////////////////
 
     const ingredientSchema = new mongoose.Schema({
       Name: {
@@ -64,9 +64,28 @@ import { runAssertions } from './internals/assertions';
       }
     });
 
+    const Ingredient = mongoose.model('Ingredient', ingredientSchema);
+
+    tomato = new Ingredient({
+      Name: 'Tomato',
+      Calories: 30,
+      CookingTime: 480,
+      Tags: {
+        Tag: 'Vegetables' 
+      },
+      Portions: {
+        SMALL: 15,
+        MEDIUM: 75,
+        LARGE: 200
+      }
+    });
+
+    await tomato.save();
+
     await runAssertions(tomato);
   } catch (err) {
     console.log('Error when running the task: ', err);
     console.assert(!err, 'Should not trigger error handler!', err);
   }
 })();
+

@@ -1,4 +1,4 @@
-export const quiz = [
+const quiz = [
   {
     question: {
       message:
@@ -106,3 +106,7 @@ export const quiz = [
     answer: 2,
   },
 ];
+
+module.exports = {
+  quiz
+}

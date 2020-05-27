@@ -1,0 +1,18 @@
+---
+exercises:
+  01_Przekazanie strumienia:
+    max_points: 0
+    disabled: true
+  02_pipe:
+    max_points: 0
+    disabled: true
+  03_szyfrowanie:
+    max_points: 0
+    disabled: true
+  04_Szyfrowanie i archiwizowanie:
+    max_points: 0
+    disabled: true
+  05_Decode ascii do base64:
+    max_points: 0
+    disabled: true
+...

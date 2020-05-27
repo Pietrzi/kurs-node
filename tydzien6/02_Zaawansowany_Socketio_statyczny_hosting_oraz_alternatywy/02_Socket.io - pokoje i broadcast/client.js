@@ -16,6 +16,14 @@ import { generate } from 'randomstring';
 let clientId = generate()
 
 
+// socket możebyc też tak:
+
+// const socket = io({
+//   query: {
+//     clientId,
+//   }
+// });
+
 const socket = io({query: {clientId}})
 const form = document.getElementById('request-sender')
 form.addEventListener('submit', e => {

@@ -23,6 +23,18 @@ import api from './api';
     const hbs = exhbs.create({
       helpers: {},
     });
+    /////////////////////////////////////////////
+    const hbs = exhbs.create({
+      helpers: {
+        hrPage(pageNo) {
+          return new Handlebars.SafeString(pageNo + 1);
+        },
+        showPages(pages, options) {
+          return pages.length > 1 ? options.fn(this) : '';
+        },
+      },
+    });
+    /////////////////////////////////////////////
 
     // Add new engine to ExpressJS
     app.engine('handlebars', hbs.engine);

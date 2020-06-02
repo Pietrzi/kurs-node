@@ -11,35 +11,35 @@ import { runAssertions } from './internals/assertions';
 
     // Add all of your code below //////////////////////
 
-    const tripSchema = new mongoose.Schema({
-      packageType: String,
-      title: {
-        type: String,
-        required: true
-      },
-      blurb: String,
-      description: {
-        type: String,
-        required: true,
-      },
-      difficulty: {
-        type: String,
-        required: true,
-      },
-      length: {
-        type: Number,
-        required: true
-      },
-      price: {
-        type: Number,
-        min: 0
-      },
-      region: String
-    });
+    // const tripSchema = new mongoose.Schema({
+    //   packageType: String,
+    //   title: {
+    //     type: String,
+    //     required: true
+    //   },
+    //   blurb: String,
+    //   description: {
+    //     type: String,
+    //     required: true,
+    //   },
+    //   difficulty: {
+    //     type: String,
+    //     required: true,
+    //   },
+    //   length: {
+    //     type: Number,
+    //     required: true
+    //   },
+    //   price: {
+    //     type: Number,
+    //     min: 0
+    //   },
+    //   region: String
+    // });
     
-    const Trip = mongoose.model('Trip', tripSchema);
+    // const Trip = mongoose.model('Trip', tripSchema);
     
-    data = await Trip.find({ length: { $gte: 4 }}).exec();
+    // data = await Trip.find({ length: { $gte: 4 }}).exec();
 
     ////////////////////////////////////////////////////
 

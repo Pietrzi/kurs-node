@@ -1,7 +1,6 @@
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import express from 'express';
-import exhbs from 'express-handlebars';
 
 const app = express();
 const port = 3000;
@@ -12,17 +11,19 @@ try {
   app.use(bodyParser.urlencoded({ extended: false }));
   app.use(bodyParser.json());
 
-  const hbs = exhbs.create();
+  // const hbs = exhbs.create();
 
   // Add new engine to ExpressJS
-  app.engine('handlebars', hbs.engine);
+  // app.engine('handlebars', hbs.engine);
 
   // Set chosen view engine
-  app.set('view engine', 'handlebars');
+  // app.set('view engine', 'handlebars');
 
   app.use(express.static('public'));
 
-  app.get('/', (req, res) => res.render('hello', { message: `Hello World! ${new Date().toISOString()}`}));
+  //app.get('/', (req, res) => res.render('hello', { message: `Hello World! ${new Date().toISOString()}`}));
+
+  app.get('/hello', (req, res) => res.json({ message: `Hello World! ${new Date().toISOString()}` }));
 
   app.listen(port, async () => {
     console.log(`Server listening at http://localhost:${port}`);

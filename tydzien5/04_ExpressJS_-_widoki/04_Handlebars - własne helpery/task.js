@@ -1,7 +1,8 @@
 import express from 'express';
+import Handlebars from 'handlebars';
 import exhbs from 'express-handlebars';
 
-import { runAssertions } from './internals/assertions';
+//import { runAssertions } from './internals/assertions';
 
 const app = express();
 const port = 3000;
@@ -10,7 +11,18 @@ try {
   // Add your config here
   const hbs = exhbs.create({
     helpers: {
-      // Add your helpers here
+      // Add your helpers here ////////
+      italic: function(phrase) {
+        return new Handlebars.SafeString('<i>' + Handlebars.escapeExpression(phrase) + '</i>');
+      },
+      frame: function(options) {
+        return new Handlebars.SafeString(
+          '<div style="border: 1px solid black; border-radius: 5px;">' +
+          options.fn(this)
+          + '</div>'
+        )
+      }
+      /////////////////////////////////
     }
   });
 
@@ -34,7 +46,7 @@ try {
 
     console.log('Will run assertions...');
     try {
-      await runAssertions();
+      //await runAssertions();
     } catch (err) {
       console.log('Error when trying to run assertions: ', err);
     }

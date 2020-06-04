@@ -8,9 +8,18 @@ const app = express();
 const port = 3000;
 
 try {
-  // Add your config here
-  console.log(data);
-  console.log(exhbs);
+  // Add your config here ////////////
+
+  const hbs = exhbs.create();
+
+  app.engine('handlebars', hbs.engine);
+
+  app.set('view engine', 'handlebars');
+
+  app.get('/results', (req, res) => {
+    res.render('results', data);
+    });
+  ///////////////////////////////////////
 
   app.listen(port, async () => {
     console.log(`Example app listening at http://localhost:${port}`);

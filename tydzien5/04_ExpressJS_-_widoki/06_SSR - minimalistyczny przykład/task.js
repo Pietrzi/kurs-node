@@ -17,12 +17,17 @@ try {
   // Set chosen view engine
   app.set('view engine', 'handlebars');
 
-  // ADD YOUR PUBLIC DIRECTORY CONFIGURATION HERE!
+  // ADD YOUR PUBLIC DIRECTORY CONFIGURATION HERE! /////////////////
+  app.use(express.static('public'));
 
   // Add your GET here, use this data:
   app.get('/ssr', (req, res) => {
     res.render('ssr', {
-      // Add your variables here
+      // Add your variables here //////////////////
+      currDate: new Date().toISOString(),
+      cpu: os.cpus()[0].model,
+      arch: os.arch()
+      //////////////////////////////////////////////
     });
   });
 

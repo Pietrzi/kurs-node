@@ -1,0 +1,23 @@
+<h1>Server specs: </h1>
+<div>
+  <p>
+    CPU: <span id="specs-info-cpu"></span>
+  </p>
+  <p>
+    Arch: <span id="specs-info-arch"></span>
+  </p>
+</div>
+
+<h2>Current date: </h2>
+<div id="current-date">
+  {{ currDate }}
+</div>
+
+<script>
+  window.__INITIAL_DATA__ = {
+    cpu: '{{ cpu }}',
+    arch: '{{ arch }}'
+  }
+</script>
+
+<script src="../public/client.js" type="text/javascript"></script>

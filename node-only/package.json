@@ -1,0 +1,12 @@
+{
+    "name": "sam node",
+    "version": "1.0.0",
+    "description": "czysty node",
+    "main": "app.js",
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1",
+      "mime": "^2.4.4"
+    }
+  }

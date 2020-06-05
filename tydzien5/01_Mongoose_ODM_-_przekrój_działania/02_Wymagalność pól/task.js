@@ -6,7 +6,25 @@ import { runAssertions } from './internals/assertions';
   try {
     let appSchema;
 
-    // Put your schema here
+    // Put your schema here /////////////
+    const appSchema = new mongoose.Schema({
+      version: {
+        type: String,
+        required: function() {
+          return this.shouldUpdate;
+        }
+      },
+      shouldUpdate: Boolean,
+      size: Number,
+      installationLocation: String,
+      lastChecked: {
+        type: Number,
+        required: function () {
+          return this.shouldUpdate;
+        }
+      }
+    });
+    /////////////////////////////////////
 
     await runAssertions(appSchema);
   } catch (err) {

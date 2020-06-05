@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Aplikacja w expressJS",
   "main": "app.js",
-  "type": "module",
   "author": "",
   "license": "ISC",
   "dependencies": {

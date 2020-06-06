@@ -14,10 +14,16 @@
 // });
 const express = require("express");
 const app = express();
-const { converter } = require('./converter.js');
+const converter = require('./converter.js');
+// import { router as calc } from './calc.js';
+const calc  = require('./calc.js');
+
+app.use('/calc', calc);
 
 app.use('/toPLN', converter);
 
+
+////////////////// chudy 1,2,3,4
 const users = [
   {
     id: 1,
@@ -67,6 +73,61 @@ app.get(/.*/, (req, res) => {
   console.log("page not found", res.statusCode);
   res.end();
 });
+
+////////////////////////////// chudy end
+
+////////////////////////////// coders 1
+const users = Array.from({ length: 20 }, (_, i) => ({
+    id: `${i}`,
+    email: `user_${i}@gmail.com`,
+  }));
+  
+  app.param('id', (req, res, next, id) => {
+    const [user] = users.filter((user) => user.id === id);
+    if (user) {
+      req.user = user;
+      next();
+    } else {
+      next(new Error('failed to load user'));
+    }
+  });
+  
+  app.get('/user/:id', (req, res) => {
+    res.send(req.user);
+  });
+///////////////////////////// coders 2
+app.use((err, req, res, next) => {
+    res.status(500).send(err.message);
+  });
+  ///////////////////////////// coders 3
+  app.use((req, res, next) => {
+    res.status(404).send('Not Found');
+  });
+/////////////////////////////// coders 4
+app.param('id', (req, res, next, id) => {
+    const [user] = users.filter((user) => user.id === id);
+    if (user) {
+      req.user = user;
+      req.id = parseInt(id);
+      next();
+    } else {
+      next(new Error('Failed to load user!'));
+    }
+  });
+  
+  app.get('/user/info/:id', (req, res, next) => {
+    console.log(req.id);
+    if (req.id % 2 === 0) {
+      res.send('Identyfikator parzysty');
+    } else {
+      next('route');
+    }
+  });
+  
+  app.get('/user/info/:id', (req, res) => {
+    res.send('Identyfikator nieparzysty');
+  });
+///////////////////////////////////////////
 
 app.listen(3000, () => {
   console.log("app listening on port http://localhost:3000");

@@ -1,7 +1,7 @@
 
 const express = require('express');
 
-export const router = express.Router();
+const router = express.Router();
 
 router.param('amount', (req, res, next, amount) => {
   if (isNaN(parseFloat(amount))) {
@@ -35,3 +35,5 @@ router.get('/:currency/:amount', (req, res, next) => {
     next('router');
   }
 });
+
+module.exports = router;

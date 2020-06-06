@@ -1,6 +1,6 @@
 const express = require('express');
 
-export const router = express.Router();
+const router = express.Router();
 
 const operations = ['add', 'subtract', 'divide', 'multiply', 'modulo'];
 
@@ -39,3 +39,5 @@ router.get('/:num1/:operation/:num2', (req, res, next) => {
 router.use((err, req, res, next) => {
   res.send(err.message);
 });
+
+module.exports = router;

@@ -14,6 +14,10 @@
 // });
 const express = require("express");
 const app = express();
+const { converter } = require('./converter.js');
+
+app.use('/toPLN', converter);
+
 const users = [
   {
     id: 1,
@@ -28,6 +32,7 @@ const users = [
     email: "fxc@zxc.pl",
   },
 ];
+
 app.param("id", (req, res, next, id) => {
   const user = users.find((user) => user.id == id);
   if (!user) {
@@ -36,6 +41,7 @@ app.param("id", (req, res, next, id) => {
   req.user = user;
   next();
 });
+
 app.param("id", (req, res, next, id) => {
   console.log(id);
   console.log(isNaN(Number(id)));
@@ -44,20 +50,24 @@ app.param("id", (req, res, next, id) => {
   }
   next();
 });
+
 app.get("/user/info/:id", (req, res) => {
   if (Number(req.params.id) % 2 === 0) {
     res.end("Użytkownik parzysty");
   }
   res.end("Użytkownik nieparzysty");
 });
+
 app.get("/user/:id", (req, res) => {
   res.end(req.user.email);
 });
+
 app.get(/.*/, (req, res) => {
   res.status(404);
   console.log("page not found", res.statusCode);
   res.end();
 });
+
 app.listen(3000, () => {
   console.log("app listening on port http://localhost:3000");
 });

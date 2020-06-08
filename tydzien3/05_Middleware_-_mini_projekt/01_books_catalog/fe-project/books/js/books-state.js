@@ -12,7 +12,7 @@ function prepareState(bookList = []) {
     }
 }
 
-export class BooksState {
+class BooksState {
     state = {
         isAddBookModalVisible: false,
         bookItems: {},
@@ -122,3 +122,5 @@ export class BooksState {
             .catch(() => {});
     }
 }
+
+module.exports = BooksState;

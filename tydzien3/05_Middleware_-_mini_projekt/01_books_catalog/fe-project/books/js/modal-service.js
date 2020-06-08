@@ -1,6 +1,9 @@
-import { html, render } from './../node_modules/lit-html/lit-html.js';
+//import { html, render } from './../node_modules/lit-html/lit-html.js';
 
-export class ModalService {
+const html = require('./../node_modules/lit-html/lit-html.js');
+const render = require('./../node_modules/lit-html/lit-html.js');
+
+class ModalService {
     constructor(rootElement) {
         this.rootElement = rootElement;
     }
@@ -20,3 +23,5 @@ export class ModalService {
     }
 
 }
+
+module.exports = ModalService;

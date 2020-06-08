@@ -1,10 +1,28 @@
-import { html, render } from './../node_modules/lit-html/lit-html.js';
-import { repeat } from './../node_modules/lit-html/directives/repeat.js';
-import { classMap } from './../node_modules/lit-html/directives/class-map.js';
+// import { html, render } from './../node_modules/lit-html/lit-html.js';
+// import { repeat } from './../node_modules/lit-html/directives/repeat.js';
+// import { classMap } from './../node_modules/lit-html/directives/class-map.js';
 
-import { BooksState } from './books-state.js';
-import { ApiService } from './api-service.js';
-import { ModalService } from './modal-service.js';
+// import { BooksState } from './books-state.js';
+// import { ApiService } from './api-service.js';
+// import { ModalService } from './modal-service.js';
+
+//const html = require('./../node_modules/lit-html/lit-html.js');
+// const { html, render } = require('./../node_modules/lit-html/lit-html.js');
+// const { repeat } = require('./../node_modules/lit-html/directives/repeat.js');
+// const { classMap } = require('./../node_modules/lit-html/directives/class-map.js');
+
+// const { BooksState } = require('./books-state.js');
+// const { ApiService } = require('./api-service.js');
+// const { ModalService } = require('./modal-service.js');
+
+const html = require('./../node_modules/lit-html/lit-html.js');
+const render = require('./../node_modules/lit-html/lit-html.js');
+const repeat = require('./../node_modules/lit-html/directives/repeat.js');
+const classMap = require('./../node_modules/lit-html/directives/class-map.js');
+
+const BooksState = require('./books-state.js');
+const ApiService = require('./api-service.js');
+const ModalService = require('./modal-service.js');
 
 // APPLICATION BOOTSTRAP
 const appElement = document.querySelector('#app');
